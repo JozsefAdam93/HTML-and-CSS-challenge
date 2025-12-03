@@ -92,14 +92,13 @@ main p {
   text-align: center;
 }
 
-.btn{
-    background-color: rgb(255, 153, 0);
-    color: white;
-    border-radius: 6px;
-    padding: 10px 20px;
+.btn {
+  background-color: rgb(255, 153, 0);
+  color: white;
+  border-radius: 6px;
+  padding: 10px 20px;
 }
 /*gomb alap beállítása*/
 .btn:hover {
-    background-color: rgb(255, 60, 0);
-    
+  background-color: rgb(255, 60, 0);
 }
