@@ -1,0 +1,105 @@
+body {
+  font-family: "Zalando Sans Expanded", sans-serif;
+  margin: 0;
+  background-color: rgb(66, 59, 59);
+}
+/*body beállítása*/
+a {
+  text-decoration: none;
+}
+/*linkek alap beállítása*/
+#main-header {
+  height: 80px;
+  background-color: rgb(27, 26, 26);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+}
+/*header elrendezés*/
+#logo {
+  font-size: 36px;
+  font-weight: bold;
+  color: rgb(255, 166, 0);
+}
+/*logo beállítása*/
+#main-header ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+/*header lista beállítása*/
+#main-header li {
+  margin: 0 20px;
+}
+/*header linkek beállítása*/
+#main-header nav a {
+  color: rgb(255, 0, 0);
+  font-size: 20px;
+}
+/*header linkek szín beállítása*/
+#main-header nav a:hover {
+  color: rgb(255, 166, 0);
+}
+
+/*eddig tartott a header beállítása (+body)*/
+
+main h1 {
+  text-align: center;
+  color: rgb(255, 153, 0);
+  font-size: 48px;
+  padding: 20px;
+}
+/*h1 beállítása*/
+main p {
+  color: rgb(168, 164, 164);
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
+  width: 80%;
+  margin: auto;
+}
+/*p beállítása*/
+#main-content {
+  width: 80%;
+  margin: 50px auto;
+}
+/*section elrendezés középre beállítása*/
+#main-content ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  list-style: none;
+}
+/*ul lista grid elrendezése*/
+.food-item img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+/*képek beállítása*/
+
+.food-item {
+  background-color: rgb(233, 202, 118);
+  border-radius: 6px;
+  overflow: hidden;
+}
+/*ablakok formázása*/
+.food-item-content {
+  padding: 0px 10px 20px 10px;
+  text-align: center;
+}
+
+.btn{
+    background-color: rgb(255, 153, 0);
+    color: white;
+    border-radius: 6px;
+    padding: 10px 20px;
+}
+/*gomb alap beállítása*/
+.btn:hover {
+    background-color: rgb(255, 60, 0);
+    
+}
