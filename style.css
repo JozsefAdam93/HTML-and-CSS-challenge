@@ -9,16 +9,16 @@ a {
 }
 /*linkek alap beállítása*/
 #main-header {
-  height: 80px;
+  height: 5rem;
   background-color: rgb(27, 26, 26);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 20px;
+  padding: 0px 1.25rem;
 }
 /*header elrendezés*/
 #logo {
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: bold;
   color: rgb(255, 166, 0);
 }
@@ -26,18 +26,18 @@ a {
 #main-header ul {
   list-style: none;
   display: flex;
-  gap: 20px;
+  gap: 1.25rem;
   margin: 0;
   padding: 0;
 }
 /*header lista beállítása*/
 #main-header li {
-  margin: 0 20px;
+  margin: 0 1.25rem;
 }
 /*header linkek beállítása*/
 #main-header nav a {
   color: rgb(255, 0, 0);
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 /*header linkek szín beállítása*/
 #main-header nav a:hover {
@@ -49,13 +49,13 @@ a {
 main h1 {
   text-align: center;
   color: rgb(255, 153, 0);
-  font-size: 48px;
-  padding: 20px;
+  font-size: 3rem;
+  padding: 1.25rem;
 }
 /*h1 beállítása*/
 main p {
   color: rgb(168, 164, 164);
-  font-size: 20px;
+  font-size: 1.25rem;
   text-align: center;
   font-style: italic;
   width: 80%;
@@ -64,7 +64,7 @@ main p {
 /*p beállítása*/
 #main-content {
   width: 80%;
-  margin: 50px auto;
+  margin: 3.125rem auto;
 }
 /*section elrendezés középre beállítása*/
 #main-content ul {
@@ -75,7 +75,7 @@ main p {
 }
 /*ul lista grid elrendezése*/
 .food-item img {
-  height: 400px;
+  height: 25rem;
   width: 100%;
   object-fit: cover;
 }
@@ -88,7 +88,7 @@ main p {
 }
 /*ablakok formázása*/
 .food-item-content {
-  padding: 0px 10px 20px 10px;
+  padding: 0px 1rem 1.25rem 1rem;
   text-align: center;
 }
 
@@ -96,7 +96,7 @@ main p {
   background-color: rgb(255, 153, 0);
   color: white;
   border-radius: 6px;
-  padding: 10px 20px;
+  padding: 0.625rem 1.25rem;
 }
 /*gomb alap beállítása*/
 .btn:hover {
