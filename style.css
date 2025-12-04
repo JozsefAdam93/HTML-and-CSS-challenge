@@ -55,7 +55,7 @@ main h1 {
 /*h1 beállítása*/
 main p {
   color: rgb(168, 164, 164);
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   text-align: center;
   font-style: italic;
   width: 80%;
@@ -102,3 +102,19 @@ main p {
 .btn:hover {
   background-color: rgb(255, 60, 0);
 }
+
+@media (max-width: 48rem) {
+
+#main-header nav{
+  display: none;
+}
+
+  main h1 {
+    font-size: 1.5rem;
+  }
+
+  #main-content ul {
+    grid-template-columns: 100%;
+  }
+}
+/*reszponzív beállítások mobil eszközökre, @media (max-width: 768px) töréspont meghatározása, tehát hogy hány pixeltől módosuljon az elrendezés. Ez most a ul-re adta meg */
