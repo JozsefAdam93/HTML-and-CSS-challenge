@@ -21,8 +21,26 @@ a {
   font-size: 2.25rem;
   font-weight: bold;
   color: rgb(255, 166, 0);
+  text-transform: uppercase;
 }
 /*logo beállítása*/
+
+.menu-btn {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  display: none;
+}
+/*menu gomb alap beállítása*/
+
+.menu-btn span {
+  width: 100%;
+  height: 3px;
+  background-color: rgb(255, 255, 255);
+}
+
 #main-header ul {
   list-style: none;
   display: flex;
@@ -40,11 +58,49 @@ a {
   font-size: 1.25rem;
 }
 /*header linkek szín beállítása*/
+
 #main-header nav a:hover {
   color: rgb(255, 166, 0);
 }
 
 /*eddig tartott a header beállítása (+body)*/
+
+#side-menu {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(41, 37, 37);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+#side-menu:target{
+  display: block;
+}
+
+#side-menu header {
+  height: 5rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 5%;
+}
+
+#side-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 5rem 0 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  align-items: center;
+}
+
+#side-menu a {
+  color: rgb(255, 0, 0);
+  font-size: 1.5rem;
+}
 
 main h1 {
   text-align: center;
@@ -88,7 +144,7 @@ main p {
 }
 /*ablakok formázása*/
 .food-item-content {
-  padding: 0px 1rem 1.25rem 1rem;
+  padding: 0px 1rem 1rem 1rem;
   text-align: center;
 }
 
@@ -104,11 +160,13 @@ main p {
 }
 
 @media (max-width: 48rem) {
+  #main-header nav {
+    display: none;
+  }
 
-#main-header nav{
-  display: none;
-}
-
+  .menu-btn {
+    display: flex;
+  }
   main h1 {
     font-size: 1.5rem;
   }
